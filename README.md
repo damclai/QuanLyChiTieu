@@ -44,13 +44,22 @@ https://github.com/damclai/QuanLyChiTieu/blob/main/screenshots/Theme_light.png
 4. Build & Run (Debug APK để test nhanh)
 
 ## Screenshots
-![Màn Home](screenshots/home.png)  
-![Màn Ví](screenshots/wallets.png)  
-![Màn Báo cáo](screenshots/reports.png)  
-![Chế độ tối](screenshots/dark_mode.png)
+
+div align="center">
+
+https://github.com/damclai/QuanLyChiTieu/blob/main/screenshots/Home_light.png
+https://github.com/damclai/QuanLyChiTieu/blob/main/screenshots/Wallets.png
+https://github.com/damclai/QuanLyChiTieu/blob/main/screenshots/DetailWallets_light.png
+https://github.com/damclai/QuanLyChiTieu/blob/main/screenshots/HistoryTransaction_light.png
+https://github.com/damclai/QuanLyChiTieu/blob/main/screenshots/AddTransaction_light.png
+https://github.com/damclai/QuanLyChiTieu/blob/main/screenshots/Settings_light.png
+https://github.com/damclai/QuanLyChiTieu/blob/main/screenshots/Security_light.png
+https://github.com/damclai/QuanLyChiTieu/blob/main/screenshots/Theme_light.png
+
+</div>
 
 ## Tác giả
-Phúc IT – Sinh viên Lập Trình Di Động  
+Nhân Đảm – Sinh viên Lập Trình Di Động  
 Email: tudatnhandam1219@gmail.com  
 LinkedIn: 
 
