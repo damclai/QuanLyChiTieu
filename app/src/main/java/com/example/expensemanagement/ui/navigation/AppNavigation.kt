@@ -40,6 +40,7 @@ import com.example.expensemanagement.ui.screens.settings.ThemeScreen
 import com.example.expensemanagement.ui.screens.settings.SecurityScreen
 import com.example.expensemanagement.ui.screens.transaction.TransactionDetailScreen
 import com.example.expensemanagement.viewmodel.PinScreenMode
+import com.example.expensemanagement.ui.screens.settings.AppQrCodeScreen
 
 
 @Composable
@@ -335,7 +336,11 @@ fun AppNavigation(
                 onNavigateToTheme = {
                     navController.navigate(AppDestinations.Theme.route)
                 },
-                onNavigateToSecurity = { navController.navigate(AppDestinations.Security.route) }
+                onNavigateToSecurity = { navController.navigate(AppDestinations.Security.route) },
+
+                onNavigateToAppQrCode = { // <-- THÊM XỬ LÝ ĐIỀU HƯỚNG QR tải app
+                    navController.navigate(AppDestinations.AppQrCode.route)
+                },
                 // viewModel tự động được inject
             )
         }
@@ -413,6 +418,13 @@ fun AppNavigation(
                 onNavigateToEdit = {
                     navController.navigate(AppDestinations.AddTransaction.createRouteForEdit(transactionId))
                 }
+            )
+        }
+
+        // Màn hình QR Tải App
+        composable(AppDestinations.AppQrCode.route) {
+            AppQrCodeScreen(
+                onNavigateBack = { navController.popBackStack() }
             )
         }
     }

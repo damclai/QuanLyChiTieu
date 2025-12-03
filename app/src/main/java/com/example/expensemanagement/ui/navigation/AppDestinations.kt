@@ -107,5 +107,8 @@ object BudgetSetup : AppDestinations("budget_setup/{groupId}") {
     }
 
 
+    // Màn hình Mã QR Tải App
+    object AppQrCode : AppDestinations("app_qr_code")
+
     // ... Bạn có thể thêm 10 màn hình nữa vào đây ...
 }

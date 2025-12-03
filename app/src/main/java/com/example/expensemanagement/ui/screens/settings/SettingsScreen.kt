@@ -35,6 +35,7 @@ fun SettingsScreen(
     onNavigateToMyQrCode: () -> Unit,
     onNavigateToSecurity: () -> Unit,
     onNavigateToTheme: () -> Unit,
+    onNavigateToAppQrCode: () -> Unit, // QR tải app
     onLogout: () -> Unit, // Xử lý đăng xuất
     viewModel: AuthViewModel = hiltViewModel()
 ) {
@@ -182,8 +183,8 @@ fun SettingsScreen(
 
                 SettingsItem(
                     icon = Icons.Default.Share,
-                    title = "Chia sẻ",
-                    onClick = { /* TODO */ }
+                    title = "Chia sẻ ứng dụng",
+                    onClick = { onNavigateToAppQrCode() }
                 )
                 HorizontalDivider()
 
